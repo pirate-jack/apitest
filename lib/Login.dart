@@ -11,7 +11,6 @@ class Login extends StatefulWidget {
   @override
   State<Login> createState() => _LoginState();
 }
-//hiii
 class _LoginState extends State<Login> {
   TextEditingController mo = new TextEditingController();
   TextEditingController pass = new TextEditingController();
