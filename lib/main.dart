@@ -275,3 +275,10 @@ class _SingState extends State<Sing> {
     return cnt;
   }
 }
+
+//
+// body: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+// itemCount: imageList.length,
+// scrollDirection: Axis.vertical,
+// itemBuilder:(context , index)=> dis(imageList[index],titleList[index]) ,
+// ),

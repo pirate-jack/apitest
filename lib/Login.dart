@@ -42,7 +42,7 @@ class _LoginState extends State<Login> {
               TextField(
                 maxLength: 10,
                 controller: mo,
-                keyboardType: TextInputType.number,
+                  keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.0),
